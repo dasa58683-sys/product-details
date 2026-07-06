@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Saree Sanskriti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- search bar -->
+
+<section class="search-section">
+    <div class="search-box">
+        <i class="fa-solid fa-arrow-left-long" onclick="goHome()" id="backBtn"></i>
+        <span class="search"><i class="fa-solid fa-magnifying-glass"></i></span>
+        <input class="search-input" type="text" placeholder="Search here" id="searchInput" autofocus>
+       
+        <span class="remove"><i class="fa-solid fa-xmark" id="clearBtn"></i></span>
+       
+    </div>
+</section>
+
+<!-- product gallery -->
+
+<section class="product-gallery">
+
+    <div class="slider">
+
+        <div class="slider-wrapper">
+
+            <img src="pink kanjivaram main.jpeg" class="slide active">
+            <img src="pink kanjivaram2.jpeg" class="slide">
+            <img src="pink kanjivaram3.jpeg" class="slide">
+            <img src="pink kanjivaram4.jpeg" class="slide">
+            <img src="pink kanjivaram5.jpeg" class="slide">
+
+        </div>
+
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+
+    <div class="thumbnails">
+
+        <img src="pink kanjivaram main.jpeg" class="thumb active">
+        <img src="pink kanjivaram 2.jpeg" class="thumb">
+        <img src="pink kanjivaram3.jpeg" class="thumb">
+        <img src="pink kanjivaram4.jpeg" class="thumb">
+        <img src="pink kanjivaram5.jpeg" class="thumb">
+
+    </div>
+
+</section>
+
+<!-- product details  -->
+
+<section class="product-info">
+
+    <!-- Product Name -->
+    <h2 class="product-title">
+        Kanjivaram Soft Silk Saree
+    </h2>
+
+    <!-- Rating -->
+    <div class="rating-box">
+
+        <span class="rating">
+           4.8 <i class="fa-solid fa-star"></i>
+        </span>
+
+        <P>Very Good</P>
+
+    </div>
+
+    <!-- Price -->
+
+    <div class="price-box">
+
+        <span class="price">₹1,299</span>
+
+        <span class="old-price">₹2,999</span>
+
+        <span class="discount">
+            57% OFF
+        </span>
+
+    </div>
+
+    <p class="tax">
+        Inclusive of all taxes
+    </p>
+
+</section>
+
+<!-- colour selector -->
+
+ <section class="product-variants">
+
+    <div class="variant-header">
+
+        <h3>Select Color: <span class="selected-color">
+            Pink
+        </span></h3>
+
+    </div>
+
+    <div class="color-list">
+
+        <div class="color active">
+            <img src="green kanjivaram.jpeg" alt="">
+        </div>
+
+        <div class="color">
+            <img src="light green kanjivaram.jpeg" alt="">
+        </div>
+
+        <div class="color">
+            <img src="purple kanjivaram.jpeg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- size selector -->
+
+<section class="size-section">
+
+    <div class="size-header">
+
+        <h3>Select Size</h3>
+
+        <a href="#" class="size-guide">
+            Size Guide
+        </a>
+
+    </div>
+
+    <div class="size-list">
+
+        <div class="size">S</div>
+
+        <div class="size active">M</div>
+
+        <div class="size">L</div>
+
+        <div class="size">XL</div>
+
+        <div class="size">XXL</div>
+
+    </div>
+
+</section>
+
+<!-- address location -->
+
+<section class="delivery-section">
+
+    <div class="delivery-header">
+
+        <div class="location">
+
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+
+                <h4>Deliver to</h4>
+                <p>Baghajatin Colony, Siliguri - 734003</p>
+
+            </div>
+
+        </div>
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </div>
+
+    <div class="delivery-info">
+
+        <span class="delivery-date">
+            Delivery by <strong>10 - 12 Jul</strong>
+        </span>
+
+        <span class="free-delivery">
+            Free Delivery
+        </span>
+
+    </div>
+
+</section>
+
+<!-- feature section -->
+
+<section class="features-section">
+
+    <h3>Why You'll Love It</h3>
+
+    <div class="features-grid">
+
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-gem"></i>
+            </div>
+            <p>Premium Quality</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-shirt"></i>
+            </div>
+            <p>Pure Silk</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Zari Woven</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-feather"></i>
+            </div>
+            <p>Lightweight</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fa-solid fa-crown"></i>
+            </div>
+            <p>Wedding Wear</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- silmilar products -->
+
+<section class="similar-products">
+
+    <div class="section-header">
+
+        <h2>You May Also Like</h2>
+
+        <a href="#">View All</a>
+
+    </div>
+
+    <div class="product-slider">
+
+        <!-- Product 1 -->
+
+        <div class="product-card">
+
+            <span class="offer-tag">50% OFF</span>
+
+            <button class="wishlist-btn">
+                <i class="fa-regular fa-heart"></i>
+            </button>
+
+            <img src="salwar.jpeg">
+
+            <h4>Banarasi Silk Saree</h4>
+
+            <div class="rating">
+                <i class="fa-solid fa-star"></i> 4.8
+            </div>
+
+            <div class="price">
+
+                <P>₹1,299</P>
+
+                <span>₹2,599</span>
+
+            </div>
+
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="product-card">
+
+            <span class="offer-tag">40% OFF</span>
+
+            <button class="wishlist-btn">
+                <i class="fa-regular fa-heart"></i>
+            </button>
+
+            <img src="curtain2.jpeg">
+
+            <h4>Kanjivaram Saree</h4>
+
+            <div class="rating">
+                 <i class="fa-solid fa-star"></i> 4.7
+            </div>
+
+            <div class="price">
+
+                <P>₹1,599</P>
+
+                <span>₹2,799</span>
+
+            </div>
+
+        </div>
+
+        <!-- Add more cards in the same way -->
+
+    </div>
+
+</section>
+
+<div class="bottom-bar">
+
+    <button class="add-cart">
+
+        <i class="fa-solid fa-cart-shopping"></i>
+
+        Add to Cart
+
+    </button>
+
+    <button class="buy-now">
+         <i class="fa-solid fa-bag-shopping"></i>
+        Buy Now
+
+    </button>
+
+</div>
+
+<!-- add to cart message -->
+
+<div class="toast">
+
+    Product added to cart 🛒
+
+</div>
+
+<!-- product highlights -->
+
+<section class="product-highlights">
+
+    <div class="highlight-header">
+        <h2>Product Highlights</h2>
+
+        <button class="toggle-btn">
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+    </div>
+
+    <div class="highlight-list">
+
+        <div class="highlight-item">
+            <span class="label">Fabric</span>
+            <span class="value">Soft Banarasi Silk</span>
+        </div>
+
+        <div class="highlight-item">
+            <span class="label">Work</span>
+            <span class="value">Rich Zari Woven</span>
+        </div>
+
+        <div class="highlight-item">
+            <span class="label">Blouse</span>
+            <span class="value">Running Blouse Piece</span>
+        </div>
+
+        <div class="highlight-item">
+            <span class="label">Length</span>
+            <span class="value">6.3 Meter</span>
+        </div>
+
+        <div class="highlight-item">
+            <span class="label">Occasion</span>
+            <span class="value">Wedding & Festival</span>
+        </div>
+
+        <div class="highlight-item">
+            <span class="label">Care</span>
+            <span class="value">Dry Clean Only</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- product description -->
+
+<section class="product-description">
+
+    <div class="description-header">
+
+        <h2>Product Description</h2>
+
+        <button class="description-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+    </div>
+
+    <div class="description-content">
+
+        <p id="description-text">
+
+            Elevate your ethnic wardrobe with this elegant Banarasi Soft Silk Saree,
+            beautifully designed with rich woven zari work and a luxurious finish.
+            The saree comes with a matching running blouse piece, making it perfect
+            for weddings, festivals, family functions, parties, and special occasions.
+
+            Crafted from premium-quality fabric, it offers a soft feel, lightweight
+            comfort, and graceful draping throughout the day. The intricate weaving
+            and traditional craftsmanship create a timeless look that complements
+            every celebration.
+
+            Pair it with traditional jewellery and heels for a complete festive look.
+
+        </p>
+
+        <button id="readMoreBtn">
+            Read More
+        </button>
+
+    </div>
+
+</section>
+
+<!-- review card -->
+
+<section class="reviews-section">
+
+    <div class="review-header">
+
+        <h2>Ratings & Reviews</h2>
+
+        <button class="review-toggle">
+            <i class="fa-solid fa-chevron-down"></i>
+        </button>
+
+    </div>
+
+    <div class="review-content">
+
+        <!-- Overall Rating -->
+
+        <div class="overall-rating">
+
+            <div class="rating-left">
+
+                <h1>4.8</h1>
+
+                <p>★★★★★</p>
+
+                <span>2,468 Ratings</span>
+
+            </div>
+
+            <div class="rating-right">
+
+                <div class="bar">
+                    <span>5★</span>
+                    <div class="progress">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <span>4★</span>
+                    <div class="progress">
+                        <div style="width:10%"></div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <span>3★</span>
+                    <div class="progress">
+                        <div style="width:3%"></div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <span>2★</span>
+                    <div class="progress">
+                        <div style="width:1%"></div>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <span>1★</span>
+                    <div class="progress">
+                        <div style="width:1%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Review Card -->
+
+        <div class="review-card">
+
+            <div class="review-top">
+
+                <span class="review-rating">
+                    <i class="fa-solid fa-star"></i> 5.0
+                </span>
+
+                <span class="verified">
+                    ✔ Verified Purchase
+                </span>
+
+            </div>
+
+            <h4>Beautiful Saree ❤️</h4>
+
+            <p>
+
+                The fabric is very soft and premium.
+                Exactly the same as shown in the picture.
+                Perfect for wedding functions.
+
+            </p>
+
+            <div class="review-images">
+
+                <img src="review.jpeg">
+
+                <img src="review 2.jpeg">
+
+            </div>
+
+            <div class="review-footer">
+
+                <span>By Priya Sharma</span>
+
+                <span>2 Jul 2026</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- recently viewed -->
+
+<section class="recently-viewed">
+
+    <div class="section-header">
+
+        <h2>Recently Viewed</h2>
+
+        <a href="#">Clear</a>
+
+    </div>
+
+    <div class="recent-slider">
+
+        <!-- Product 1 -->
+
+        <div class="recent-card">
+
+            <img src="kurta.jpeg" alt="">
+
+            <h4>Banarasi Silk Saree</h4>
+
+            <div class="recent-price">
+
+                ₹1,299
+
+                <span>₹2,599</span>
+
+            </div>
+
+        </div>
+
+        <!-- Product 2 -->
+
+        <div class="recent-card">
+
+            <img src="bed3.jpeg" alt="">
+
+            <h4>Kanjivaram Saree</h4>
+
+            <div class="recent-price">
+
+                ₹1,599
+
+                <span>₹2,999</span>
+
+            </div>
+
+        </div>
+
+        <!-- Product 3 -->
+
+        <div class="recent-card">
+
+            <img src="salwar1.jpeg" alt="">
+
+            <h4>Organza Saree</h4>
+
+            <div class="recent-price">
+
+                ₹999
+
+                <span>₹1,999</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
