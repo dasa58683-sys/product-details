@@ -48,12 +48,18 @@ body{
 
 .search i{
     position: absolute;
-    left: 19%;
+    left: 15%;
     top: 50%;
     transform: translateY(-50%);
     font-size: 20px;
     color: #666666;
     
+}
+
+.cart{
+    font-size: 24px;
+    margin-right: 12px;
+    color: #1a1a1a;
 }
 
 .remove i{
@@ -78,7 +84,7 @@ body{
 
 .product-gallery{
     width:100%;
-    height: 550px;
+    height: 450px;
 }
 
 .slider{
@@ -94,8 +100,9 @@ body{
 
 .slide{
     min-width:100%;
-    height:550px;
+    height:450px;
     object-fit:cover;
+    object-position: top;
     user-select:none;
 }
 
@@ -748,12 +755,15 @@ SIMILAR PRODUCTS
 
     display:flex;
 
-    gap:16px;
+    gap:10px;
 
     overflow-x:auto;
+    overflow-y: hidden;
 
-    scroll-snap-type:x mandatory;
-
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    -webkit-overflow-scrolling:touch ;
+    scrollbar-width: none;
     padding-bottom:10px;
 
 }
@@ -768,10 +778,10 @@ SIMILAR PRODUCTS
 
     width:200px;
     height:380px;
-
+    flex: 0 0 200px;
     background:#fff;
 
-    border-radius:18px;
+    border-radius:10px;
 
     overflow:hidden;
 
@@ -889,42 +899,30 @@ BOTTOM ACTION BAR
     bottom:0;
 
     width:100%;
+    height: 75px;
 
     background:#fff;
 
-    padding:12px 16px;
+    padding:10px 12px;
 
     display:flex;
 
-    gap:12px;
+    gap:10px;
 
     box-shadow:0 -8px 20px rgba(0,0,0,.08);
 
     z-index:999;
 
-}
-
-.wishlist-btn-bottom{
-
-    width:56px;
-
-    height:56px;
-
-    border:1px solid #ddd;
-
-    border-radius:16px;
-
-    background:#fff;
-
-    font-size:22px;
-
-    cursor:pointer;
+    justify-content: center;
+    align-items: center;
 
 }
+
 
 .add-cart{
 
-    flex:1;
+    height: 100%;
+    width: 50%;
 
     border:none;
 
@@ -939,12 +937,14 @@ BOTTOM ACTION BAR
     font-weight:600;
 
     cursor:pointer;
+   
 
 }
 
 .buy-now{
 
-    flex:1;
+    height: 100%px;
+    width: 50%;
 
     border:none;
 
@@ -964,8 +964,8 @@ BOTTOM ACTION BAR
 
 .bottom-bar button{
 
-    height:56px;
-
+    height:50px;
+    width: 46%;
     transition:.3s;
 
 }
