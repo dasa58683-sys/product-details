@@ -1488,6 +1488,7 @@ REVIEWS
 .review-variant{
     color: #666666;
     font-size: 14px;
+    margin-top: 5px;
 }
 
 /*==============================*/
@@ -1537,23 +1538,9 @@ REVIEWS
 
 /*==============================*/
 
-.review-title{
-
-    margin-top:18px;
-
-    font-size:18px;
-
-    font-weight:700;
-
-    color:#222;
-
-}
-
-/*==============================*/
-
 .review-text{
 
-    margin-top:10px;
+    margin-top:5px;
 
     color:#666;
 
@@ -1641,28 +1628,12 @@ REVIEWS
 
 }
 
-/*==============================
-      FOOTER
-==============================*/
-
-.review-footer{
-
-    margin-top:20px;
-
-    display:flex;
-
-    /* justify-content:space-between; */
-    gap: 5px;
-
-    align-items:center;
-
-}
-
-/*==============================*/
 
 .helpful-btn{
 
     border:none;
+
+    margin-top: 8px;
 
     background:#f8f8f8;
 
