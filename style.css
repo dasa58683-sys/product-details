@@ -64,20 +64,22 @@ body{
 }
 
 .remove i{
-    position: absolute;
+    position: relative;
     right: 50px;
     font-size: 20px;
     top: 50%;
     transform: translateY(-50%);
     color: #666666;
     display: none;
+    height: 200px;
+    width: 200px;
 }
 
 .search-input:focus{
     outline: none;
     border: 1px solid #ff5c8a;
     box-shadow: 0 0 0 3px rgba(178, 58, 72, 0.15);
-}
+} 
 
 /* =========================
    PRODUCT GALLERY
@@ -97,6 +99,7 @@ body{
 .slider-wrapper{
     display:flex;
     transition:.4s ease;
+    
 }
 
 .slide{
@@ -130,6 +133,19 @@ body{
     width:22px;
     border-radius:30px;
     background:#ff3f6c;
+}
+
+.share{
+    background-color: #ffffff;
+    color: #1a1a1a;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    left: 89%;
+    bottom: 79%;
+    font-size: 16px;
 }
 
 /* ==========================
@@ -1467,6 +1483,10 @@ REVIEWS
 
     font-weight:600;
 
+}
+
+.review-variant{
+    color: #666666;
 }
 
 /*==============================*/
