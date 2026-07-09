@@ -1344,10 +1344,10 @@ REVIEWS
     CUSTOMER REVIEWS SECTION
 ==============================*/
 
-.reviews-section{
+.rating-section{
     background:#fff;
     margin-top:16px;
-    padding:20px 5px 2px 5px;
+    padding:20px 20px 2px 20px;
     border-radius:20px;
 }
 
@@ -1370,6 +1370,52 @@ REVIEWS
     text-decoration: none;
     color: #ff3f6c;
     font-weight: 500;
+}
+
+/* review slider */
+
+.reviews-section{
+    background:#fff;
+    margin-top:16px;
+    padding:20px 5px 2px 5px;
+    border-radius:20px;
+    width: 100%;
+}
+
+.review-slider{
+
+    display:flex;
+
+    gap:10px;
+
+    overflow-x:auto;
+
+    overflow-y:hidden;
+
+    scroll-behavior:smooth;
+
+    scroll-snap-type:x mandatory;
+
+    padding-bottom:10px;
+
+    -webkit-overflow-scrolling:touch;
+
+    scrollbar-width:none;
+
+}
+
+.review-slider::-webkit-scrollbar{
+
+    display:none;
+
+}
+
+.review-card{
+
+    flex:0 0 320px;
+
+    scroll-snap-align:start;
+
 }
 
 /*==============================
@@ -1588,46 +1634,6 @@ REVIEWS
 
 }
 
-/*==============================*/
-
-.more-images{
-
-    width:95px;
-
-    height:95px;
-
-    background:#f2f2f2;
-
-    border-radius:14px;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:24px;
-
-    font-weight:700;
-
-    color:#444;
-
-    flex-shrink:0;
-
-}
-
-.more-images span{
-
-    font-size:13px;
-
-    font-weight:500;
-
-    margin-top:5px;
-
-}
-
 
 .helpful-btn{
 
@@ -1654,6 +1660,64 @@ REVIEWS
 .helpful-btn:hover{
 
     background:#ffedf3;
+
+    color:#ff3f6c;
+
+}
+
+/*=========================
+SHOW ALL REVIEWS
+=========================*/
+
+.show-all-review{
+
+    margin-top:20px;
+
+}
+
+.show-review-btn{
+
+    width:100%;
+
+    height:52px;
+
+    border:1.5px solid #e5e5e5;
+
+    border-radius:14px;
+
+    background:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:#333;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.show-review-btn i{
+
+    font-size:14px;
+
+}
+
+.show-review-btn:hover{
+
+    background:#fafafa;
+
+    border-color:#ff3f6c;
 
     color:#ff3f6c;
 
