@@ -21,8 +21,8 @@ body{
     align-items: center;
     justify-content: center;
     /* margin-top: 20px; */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
     gap: 10px;
     padding-left: 10px;
@@ -1501,7 +1501,7 @@ REVIEWS
 
     display: flex;
     align-items: center;
-   margin-left: 25px;
+    margin-left: 32px;
 
 }
 
